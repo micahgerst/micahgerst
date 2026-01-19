@@ -21,9 +21,6 @@ In the fourth year of university, I statistically analysed a simulated data set 
 
 You can find the [repository here.](https://github.com/micahgerst/multiarmedbandit)
 
-## Published Work
-TBD
-
 ## Education
 I graduated from UCL in 2025 with a BSc in Neuroscience and Psychology and Mathematics and Statistics from their Natural Sciences programme. I attempted a Masters, but withdrew for health reasons. Below is a summary of key courses from my programme.
 | Title | Year | Final Mark (%) | Notes |
@@ -32,4 +29,8 @@ I graduated from UCL in 2025 with a BSc in Neuroscience and Psychology and Mathe
 | Linear Models and the Analysis of Variance (STAT0006) | 2 | 69.26 | R + ggplot2 |
 | Topics in Scientific Computing (NSCI0011) | 3 | 73.00 | Python + pandas, numpy, NetworkX |
 | Advanced statistics: Data analysis and modelling with R (PSYC0146) | 4 | 63.50 | R + tidyverse, ggplot2, car, mediation, codingMatrices, emmeans, afex, buildmer, lme4, knitr, lavaan, semPlot, psychTools, brms, BayesFactor, papaja |
+
+## Published Work
+
+Outside of data analysis, I also wrote science articles for student publications. I wrote for Kinesis Magazine in 2024 about [sex development](https://kinesismagazine.com/2024/01/12/what-lies-beyond-xx-and-xy/). In the 2024-25 academic year, I was the Managing Editor for the UCL Science Magazine. I wrote an article about [catheter ablations from a patient perspective](https://www.uclsciencemagazine.com/article-b42/) when I wasn't editing!
 
