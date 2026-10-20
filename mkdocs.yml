@@ -1,3 +1,16 @@
 site_name: meet micah!
+site_author: Micah Gerstner
+site_description: null
+copyright: (c) Micah Gerstner, 2026
 
-theme: landing
+nav:
+  - Main: 'index.md'
+  - Projects: 'projects.md'
+
+theme: 
+  name: landing
+  locale: en
+  # Tiny Bold Color Cards icon by Icons8
+  favicon: 'src/img/icons8-cards-16.png'
+
+docs_dir: src/docs/
