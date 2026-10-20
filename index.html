@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>home - micah gerstner</title>
+    <style>
+      /* load heading font */
+      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:wght@400');
+      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:ital,wght@400');
+      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:wght@700');
+      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:ital,wght@700');
+
+      /* load body font */
+      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:wght@400');
+      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:ital,wght@400');
+      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:wght@700');
+      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:ital,wght@700');
+
+      /* load mono font */
+      @import url('https://fonts.googleapis.com/css2?family=Roboto Mono:wght@400');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto Mono:ital,wght@400');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto Mono:wght@700');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto Mono:ital,wght@700');
+
+      /* load emoji font */
+      @font-face {
+        font-family: "Noto Color Emoji";
+        src: url('assets/fonts/emoji/NotoColorEmoji-Regular.ttf');
+        font-weight: 400;
+      }
+  
+      :root {
+        /* colors */
+        --primary: #7287fd;
+        --secondary: #179299;
+        --tertiary: #fe640b;
+        /* shades */
+        --base: #eff1f5;
+        --mantle: #e6e9ef;
+        --crust: #dce0e8;
+        --overlay: #4c4f69;
+        --footer: #000000cc;
+        /* text */
+        --text: #4c4f69;
+        --hltext: var(--base);
+        color: var(--text);
+        /* background-specific text */
+        --primary-text: var(--hltext);
+        --secondary-text: var(--hltext);
+        --tertiary-text: var(--hltext);
+        --base-text: var(--text);
+        --mantle-text: var(--text);
+        --crust-text: var(--text);
+        --overlay-text: var(--hltext);
+        --footer-text: var(--hltext);
+        /* fonts */
+        --heading: Noto Sans, Noto Color Emoji;
+        --body: Noto Sans, Noto Color Emoji;
+        --mono: Roboto Mono, Noto Color Emoji;
+        font-family: var(--body); 
+      }
+      /* dark mode */
+      @media (prefers-color-scheme: dark) {
+        :root {
+          /* colors */
+          --primary: #94e2d5;
+          --secondary: #cba6f7;
+          --tertiary: #b4befe;
+          /* shades */
+          --base: #1e1e2e;
+          --mantle: #181825;
+          --crust: #11111b;
+          --overlay: #6c7086;
+          --footer: #00000022;
+          /* text */
+          --text: #cdd6f4;
+          --hltext: var(--base);
+          color: var(--text);
+          /* background-specific text */
+          --primary-text: #11111b;
+          --secondary-text: var(--text);
+          --tertiary-text: var(--text);
+          --base-text: var(--text);
+          --mantle-text: var(--text);
+          --crust-text: var(--text);
+          --overlay-text: var(--hltext);
+          --footer-text: var(--text);
+        }
+      }
+      /* style settings */
+      header#header {
+        grid-template-columns: 8rem auto 8rem;
+      }
+      body#background {
+        background: fixed center/cover var(--base);
+        
+        
+      }
+      #background-gradient {
+        background: linear-gradient(
+          45deg, 
+          color-mix(in srgb, var(--crust) 100%, transparent), transparent, color-mix(in srgb, var(--base) 80%, transparent)
+        );
+      }
+      content#content {
+        padding: 0 3rem;
+        background: color-mix(in srgb, var(--base) 0.2, transparent);
+        border-left: 2px solid var(--tertiary);
+        border-right: none;
+      }
+      #avatar {
+        
+        border-radius: 50%;
+        
+      }
+      footer#footer a {
+        color: #cba6f7;
+      }
+      footer#footer a:hover {
+        color: #b4befe;
+      }
+    </style>
+    <link rel="icon" type="image/x-icon" href=img/icons8-cards-16.png>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsivity.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">  
+    <script src="search/main.js"></script>
+    <script src="https://kit.fontawesome.com/b57355f8ac.js" crossorigin="anonymous"></script>
+    <script id="altmetric-embed-js" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/altmetric_badges-e7ba41a192efc3e63f5d48f8a1916dec4b1b49c01075bc7b39481408957b3b28.js"></script>
+    <link id="altmetric-embed-css" rel="stylesheet" type="text/css" href="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed-59614f5c46b49b21eeef3bb28c4fb38d1e7069e8d014752fcb66e84942556802.css">
+    <script>
+      function on_share() {
+        navigator.share({
+          url: document.URL,
+          title: "home -micah gerstner",
+        });
+      }
+    </script>
+</head>
+
+<body id="background">
+  <div id="background-gradient"></div>
+  <content id="content">
+  
+  
+  <header id="header">
+    
+    
+     
+    
+    <img id="avatar" src="img/profile_picture.png" />
+    
+
+    
+    
+    
+     
+    <nav class="horizontal" id="site-nav">
+        <ul>
+            
+            
+            <li class="nav-item"><a class="current" href=".">home</a></li>
+            
+            
+            
+            <li class="nav-item"><a class="" href="projects/">projects</a></li>
+            
+            
+        </ul>
+    </nav>
+
+    
+    
+    
+     
+    <h1 id="title"><a href=.>micah gerstner</a></h1>
+
+    
+    
+    
+     
+    <p id="tagline">he/they | <a href="https://ipa-reader.com/?text=ma%C9%AA.k%C9%99%20g%C9%99rstn%C9%99r&amp;voice=Joey">ma&#618;k&#601; g&#601;rstn&#601;r</a></p>
+
+    
+    
+    
+     
+    <ul id="socials">
+        
+        
+        
+        
+        
+        <li>
+            <a href="https://github.com/micahgerst"><i class="fa-brands fa-github" alt="GitHub"></i></a>
+            <div class="social-label">GitHub</div>
+        </li>
+        
+        
+        
+        
+        
+        <li>
+            <a href="https://www.linkedin.com/in/micah-gerstner/"><i class="fa-brands fa-linkedin" alt="LinkedIn"></i></a>
+            <div class="social-label">LinkedIn</div>
+        </li>
+        
+    </ul>
+
+    
+    
+</header>
+  
+  <main id="page">
+    <nav class="vertical" id="toc">
+
+<ul>
+
+<li class="nav-item">
+<a href="#meet-micah">Meet Micah</a>
+    
+    <ul>
+    
+    </ul>
+    
+</li>
+
+<li class="nav-item">
+<a href="#recent-projects">Recent Projects</a>
+    
+    <ul>
+    
+    </ul>
+    
+</li>
+
+<li class="nav-item">
+<a href="#qualifications">Qualifications</a>
+    
+    <ul>
+    
+    
+    <li class="nav-subitem">
+    <a href="#education">Education</a>
+    </li>
+    
+    
+    
+    <li class="nav-subitem">
+    <a href="#competencies">Competencies</a>
+    </li>
+    
+    
+    
+    <li class="nav-subitem">
+    <a href="#certifications">Certifications</a>
+    </li>
+    
+    
+    </ul>
+    
+</li>
+
+</ul>
+
+</nav>
+    <h1 id="meet-micah">Meet Micah</h1>
+<p>Hi there! I'm a recent graduate who returned to university to begin my MSc Bioinformatics. During my undergrad, my studies focused on the neuroscience of pain and computational neuroscience. Outside of my studies, I enjoy writing, crocheting, sewing, and live-action roleplay (LARP). I also enjoy video games and occasionally make my own mods for them too!</p>
+<h1 id="recent-projects">Recent Projects</h1>
+<!--- Try and keep this to 3 projects 
+TODO: Create a better way of organising this section
+--->
+<p><strong>Python Exercise Notebook</strong></p>
+<p>During my course, I was introduced to Torbjörn Lager's 46 Simple Exercises for Python. I was interested in making a notebook file for these problems, and decided to make a blank copy first to share with my peers. As I was exploring his problems, I made adjustments to the problems and added some where it would improve the flow of the problems. The final result is accessible <a href="https://github.com/micahgerst/python_exercise_notebook">here</a>.</p>
+<p><strong>TODO: Project 2</strong></p>
+<p>TODO: Info</p>
+<h1 id="qualifications">Qualifications</h1>
+<h2 id="education">Education</h2>
+<!--- The following tags may be useful for completing this section:
+<li></li>
+ --->
+<h3 id="msc-bioinformatics">MSc Bioinformatics</h3>
+<p><em>Queen Mary University of London, 2026-27</em> </p>
+<p>TODO: OVERVIEW</p>
+<table>
+<thead>
+<tr>
+<th>Module</th>
+<th>Description</th>
+<th>Competencies</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unix and Analysis of Large Genomic Datasets</td>
+<td>In this module, I learned the UNIX command line and bash scripting. To analyse large data sets, we made use of AWS cloud computing, Jupyter Notebook, and conda environment management to manipulate genomic data. We also learned how to use various genomic databases.</td>
+<td><ul><li>Bash</li><li>Genomic analysis</li><li>Pipeline construction</li><li>Environment managment</li></ul></td>
+</tr>
+<tr>
+<td>Coding for Bioscientists</td>
+<td>This module focused on Python, especially in writing scripts, using iPython notebooks, file manipulation, and object-oriented programming. We also explored the BioPython package, using AI to assist development, and dashboard construction.</td>
+<td><ul><li>Python</li><li>Git Version Control</li><li>Object Oriented Programming</li><li>Environment management</li></ul></td>
+</tr>
+<tr>
+<td>Statistics for Bioscientists</td>
+<td>An R-based module I have yet to take!</td>
+<td>TBD</td>
+</tr>
+<tr>
+<td>AI and Data Science in Biology</td>
+<td>A practical module to teach methods in bioinformatics I have yet to take.</td>
+<td>TBD</td>
+</tr>
+</tbody>
+</table>
+<h3 id="bsc-neuroscience-and-psychology-and-mathematics-and-statistics">BSc Neuroscience and Psychology and Mathematics and Statistics</h3>
+<p><em>University College London, 2021-25</em> </p>
+<p>TODO: OVERVIEW</p>
+<table>
+<thead>
+<tr>
+<th>Module</th>
+<th>Description</th>
+<th>Competencies</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Computing for Mathematical Physics</td>
+<td>A second-year module exploring how Mathematica can be used for data analysis. Received final mark of 70.06%</td>
+<td><ul><li>Mathematica</li><li>communication</li><li>creativity</li></ul></td>
+</tr>
+<tr>
+<td>Linear Models and the Analysis of Variance</td>
+<td>A second-year module focusing on statistical analysis using R, using .rmd files to organise analysis, and implementing LaTeX in the body of documents.</td>
+<td><ul><li>R</li><li>R Markdown</li><li>LaTeX</li><li>communication</li></ul></td>
+</tr>
+<tr>
+<td>Topics in Scientific Computing</td>
+<td>A third-year module cumulating in a data analysis project. I took the Python option focusing on a network theory analysis of the <em>Drosophila melanogaster</em> medulla. Received a final mark of 69.26%.</td>
+<td><ul><li>Python</li><li>numpy</li><li>pandas</li><li>NetworkX</li><li>data analysis</li></ul></td>
+</tr>
+<tr>
+<td>Advanced statistics: Data analysis and modelling with R</td>
+<td>A masters-level module dedicated to statistical analysis using R. Topics included linear modelling, structural equation modelling, and Bayesian analysis. Received a final mark of 63.50%.</td>
+<td><ul><li>R</li><li>R Markdown</li><li>LaTeX</li><li>statistical analysis</li><li>data analysis</li></ul></td>
+</tr>
+</tbody>
+</table>
+<h2 id="competencies">Competencies</h2>
+<!---
+**Tech Skills**
+
+**Research Skills**
+
+**
+
+--->
+<table>
+<thead>
+<tr>
+<th>Tech Skills</th>
+<th>Other Skills</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Python</td>
+<td>Problem solving</td>
+</tr>
+<tr>
+<td>R</td>
+<td>Creativity</td>
+</tr>
+<tr>
+<td>Bash</td>
+<td>Critical thinking</td>
+</tr>
+<tr>
+<td>Git version control</td>
+<td>Data analysis</td>
+</tr>
+<tr>
+<td></td>
+<td>Content writing</td>
+</tr>
+</tbody>
+</table>
+<h2 id="certifications">Certifications</h2>
+    <nav id="page-controls">
+      <a href="#content" id="return-top">
+        <i class="fa fa-arrow-up" alt="⇧"></i> Return to top
+      </a>
+    </nav>
+  </main>
+  </content>
+  <footer id="footer">
+    
+
+<p>Compiled from markdown using <a href="https://www.mkdocs.org/">MkDocs</a>. Theme is <a href="https://teparsons.github.io/mkdocs-landing/">Landing</a> by <a href="https://toddparsons.co.uk">Todd Parsons</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="search/main.js"></script>
+
+  </footer>
+</body>
+
+</html>
