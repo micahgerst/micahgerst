@@ -1,11 +1,3 @@
-site_name: Micah Gerstner
-nav:
-  - Home: index.md
-  - About: about.md
+site_name: My Docs
 
 theme: landing
-
-plugins:
-  - landing-preset: 
-      name: catppuccin
-
