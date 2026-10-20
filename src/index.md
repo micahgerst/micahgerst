@@ -7,8 +7,13 @@ Hi there! I'm a recent graduate who returned to university to begin my MSc Bioin
 TODO: Create a better way of organising this section
 --->
 **Python Exercise Notebook**
-During my course, I was introduced to Torbjörn Lager's 46 Simple Exercises for Python. I was interested in making a notebook file for these problems, and decided to make a blank copy first to share with my peers. As I was exploring his problems, I made adjustments to the problems and added some where I thought it would improve the flow of the problems.
-[](https://github.com/micahgerst/python_exercise_notebook)
+
+During my course, I was introduced to Torbjörn Lager's 46 Simple Exercises for Python. I was interested in making a notebook file for these problems, and decided to make a blank copy first to share with my peers. As I was exploring his problems, I made adjustments to the problems and added some where it would improve the flow of the problems. The final result is accessible [here](https://github.com/micahgerst/python_exercise_notebook).
+
+**TODO: Project 2**
+
+TODO: Info
+
 
 # Qualifications
 ## Education
