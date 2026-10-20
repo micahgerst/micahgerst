@@ -82,7 +82,7 @@ theme:
   text_color_dark: "#cdd6f4"
   hltext_color_dark: var(--base)
   # background-specific text (dark)
-  primary_text_color_dark: var(--text)
+  primary_text_color_dark: "#11111b"
   secondary_text_color_dark: var(--text)
   tertiary_text_color_dark: var(--text)
   base_text_color_dark: var(--text)

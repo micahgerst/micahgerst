@@ -5,3 +5,7 @@ h1#title, h1#title a {
     color: var(--text);
     line-height: 1em;
 }
+
+table ul {
+    padding-left: 0;
+}
