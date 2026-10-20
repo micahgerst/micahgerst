@@ -1,11 +1,11 @@
-site_name: meet micah!
+site_name: micah gerstner
 site_author: Micah Gerstner
 site_description: null
 copyright: (c) Micah Gerstner, 2026
 
 nav:
-  - 'index.md'
-  - 'projects.md'
+  - home: 'index.md'
+  - projects: 'projects.md'
 
 docs_dir: src/
 
@@ -16,17 +16,31 @@ theme:
   # header options
   header_layout:
     - avatar
-    - title
-    - tagline 
-    - socials
     - nav
+    - title
+    - tagline
+    - socials
+  
+  tagline: "he/they | [ma&#618;k&#601; g&#601rstn&#601r](https://ipa-reader.com/?text=ma%C9%AA.k%C9%99%20g%C9%99rstn%C9%99r&voice=Joey)"
+  socials:
+    - label: GitHub
+      link: https://github.com/micahgerst
+      icon: [brands, github]
+    - label: LinkedIn
+      link: https://www.linkedin.com/in/micah-gerstner/
+      icon: [brands,linkedin]
+
+  # content box options
+  border_left: 2px solid var(--tertiary)
+  content_box_opacity: 0.2
 
   # images
   # Tiny Bold Color Cards icon by Icons8
   favicon: img/icons8-cards-16.png
   avatar: img/profile_picture.png
 
-  # catppuccin options
+  toc_level: 2
+
   # style options
   background_gradient_colors: 
     - color-mix(in srgb, var(--crust) 100%, transparent)
@@ -35,9 +49,9 @@ theme:
   round_avatar: True
 
   # colours
-  primary_color: "#7287fd"
-  secondary_color: "#fe640b"
-  tertiary_color: "#179299"
+  primary_color: "#7287fd"  
+  secondary_color: "#179299"
+  tertiary_color: "#fe640b"
   # shades
   base_color: "#eff1f5"
   mantle_color: "#e6e9ef"
@@ -56,9 +70,9 @@ theme:
   overlay_text_color: var(--hltext)
 
   # colours (dark)
-  primary_color_dark: "#b4befe"
-  secondary_color_dark: "#fab387"
-  tertiary_color_dark: "#94e2d5"
+  primary_color_dark: "#94e2d5"  #teal
+  secondary_color_dark: "#cba6f7" #mauve
+  tertiary_color_dark: "#b4befe"  #lavender
   # shades (dark)
   base_color_dark: "#1e1e2e"
   mantle_color_dark: "#181825"
@@ -83,3 +97,7 @@ theme:
 
   # other options
   share_btn: False
+
+# css modifications
+extra_css:
+  - style.css
