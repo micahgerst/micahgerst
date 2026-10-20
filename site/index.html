@@ -3,13 +3,13 @@
 
 <head>
 
-    <title>Welcome to MkDocs - My Docs</title>
+    <title>meet micah! - meet micah!</title>
     <style>
       /* load heading font */
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400');
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400');
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700');
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@700');
+      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:wght@400');
+      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:ital,wght@400');
+      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:wght@700');
+      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:ital,wght@700');
 
       /* load body font */
       @import url('https://fonts.googleapis.com/css2?family=Noto Sans:wght@400');
@@ -18,10 +18,10 @@
       @import url('https://fonts.googleapis.com/css2?family=Noto Sans:ital,wght@700');
 
       /* load mono font */
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains Mono:wght@400');
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains Mono:ital,wght@400');
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains Mono:wght@700');
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains Mono:ital,wght@700');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto Mono:wght@400');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto Mono:ital,wght@400');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto Mono:wght@700');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto Mono:ital,wght@700');
 
       /* load emoji font */
       @font-face {
@@ -32,18 +32,18 @@
   
       :root {
         /* colors */
-        --primary: #05b2dc;
-        --secondary: #ef9B0f;
-        --tertiary: #ef3e36;
+        --primary: #7287fd;
+        --secondary: #fe640b;
+        --tertiary: #179299;
         /* shades */
-        --base: #ffffff;
-        --mantle: #f5f4f5;
-        --crust: #d4d2d5;
-        --overlay: #aBaBaE;
+        --base: #eff1f5;
+        --mantle: #e6e9ef;
+        --crust: #dce0e8;
+        --overlay: #4c4f69;
         --footer: #000000cc;
         /* text */
-        --text: #343233;
-        --hltext: #ffffff;
+        --text: #4c4f69;
+        --hltext: var(--base);
         color: var(--text);
         /* background-specific text */
         --primary-text: var(--hltext);
@@ -55,27 +55,27 @@
         --overlay-text: var(--hltext);
         --footer-text: var(--hltext);
         /* fonts */
-        --heading: Poppins, Noto Color Emoji;
+        --heading: Noto Sans, Noto Color Emoji;
         --body: Noto Sans, Noto Color Emoji;
-        --mono: JetBrains Mono, Noto Color Emoji;
+        --mono: Roboto Mono, Noto Color Emoji;
         font-family: var(--body); 
       }
       /* dark mode */
       @media (prefers-color-scheme: dark) {
         :root {
           /* colors */
-          --primary: #05b2dc;
-          --secondary: #ef9B0f;
-          --tertiary: #ef3e36;
+          --primary: #b4befe;
+          --secondary: #fab387;
+          --tertiary: #94e2d5;
           /* shades */
-          --base: #343233;
-          --mantle: #373536;
-          --crust: #3E3C3D;
-          --overlay: #646461;
+          --base: #1e1e2e;
+          --mantle: #181825;
+          --crust: #11111b;
+          --overlay: #6c7086;
           --footer: #00000022;
           /* text */
-          --text: #ffffff;
-          --hltext: #343233;
+          --text: #cdd6f4;
+          --hltext: var(--base);
           color: var(--text);
           /* background-specific text */
           --primary-text: var(--text);
@@ -100,7 +100,7 @@
       #background-gradient {
         background: linear-gradient(
           45deg, 
-          color-mix(in srgb, var(--mantle) 80%, transparent), transparent, color-mix(in srgb, var(--crust) 20%, transparent)
+          color-mix(in srgb, var(--crust) 100%, transparent), transparent, color-mix(in srgb, var(--base) 80%, transparent)
         );
       }
       content#content {
@@ -111,17 +111,17 @@
       }
       #avatar {
         
-        border-radius: 1rem;
+        border-radius: 50%;
         
       }
       footer#footer a {
-        color: #ef9B0f;
+        color: #fab387;
       }
       footer#footer a:hover {
-        color: #ef3e36;
+        color: #94e2d5;
       }
     </style>
-    <link rel="icon" type="image/x-icon" href=assets/landing-favicon.png>
+    <link rel="icon" type="image/x-icon" href=src/img/icons8-cards-16.png>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsivity.css" rel="stylesheet">  
     <script src="search/main.js"></script>
@@ -132,7 +132,7 @@
       function on_share() {
         navigator.share({
           url: document.URL,
-          title: "Welcome to MkDocs -My Docs",
+          title: "meet micah! -meet micah!",
         });
       }
     </script>
@@ -142,30 +142,26 @@
   <div id="background-gradient"></div>
   <content id="content">
   
-<a id="share-btn" onclick="on_share()">
-  <i class="fa fa-share-alt" alt="🔗"></i>
-</a>
-
   
   <header id="header">
     
     
      
     
-    <img id="avatar" src="assets/landing-logo.png" />
+    <img id="avatar" src="src/img/profile_picture.png" />
     
 
     
     
     
      
-    
+    <h1 id="title"><a href=.>meet micah!</a></h1>
 
     
     
     
      
-    <h1 id="title"><a href=.>My Docs</a></h1>
+    
 
     
     
@@ -177,6 +173,24 @@
 
     
     
+    
+     
+    <nav class="horizontal" id="site-nav">
+        <ul>
+            
+            
+            <li class="nav-item"><a class="current" href=".">meet micah!</a></li>
+            
+            
+            
+            <li class="nav-item"><a class="" href="projects/">Projects</a></li>
+            
+            
+        </ul>
+    </nav>
+
+    
+    
 </header>
   
   <main id="page">
@@ -185,19 +199,31 @@
 <ul>
 
 <li class="nav-item">
-<a href="#welcome-to-mkdocs">Welcome to MkDocs</a>
+<a href="#meet-micah">meet micah!</a>
     
     <ul>
     
     
     <li class="nav-subitem">
-    <a href="#commands">Commands</a>
+    <a href="#recent-projects">Recent Projects</a>
     </li>
     
     
     
     <li class="nav-subitem">
-    <a href="#project-layout">Project layout</a>
+    <a href="#education">Education</a>
+    </li>
+    
+    
+    
+    <li class="nav-subitem">
+    <a href="#competencies">Competencies</a>
+    </li>
+    
+    
+    
+    <li class="nav-subitem">
+    <a href="#certifications">Certifications</a>
     </li>
     
     
@@ -208,21 +234,21 @@
 </ul>
 
 </nav>
-    <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+    <h1 id="meet-micah">meet micah!</h1>
+<p>Mini about section here</p>
+<h2 id="recent-projects">Recent Projects</h2>
+<!--- Try and keep this to 3 projects --->
+
+<h2 id="education">Education</h2>
+<h2 id="competencies">Competencies</h2>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>Problem-solving and critical thinking</li>
+<li>Coding (Python, R, Bash)</li>
+<li>Data Analysis (Python, R, Bash)</li>
+<li>Git-based Version Control</li>
+<li>Content Writing</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+<h2 id="certifications">Certifications</h2>
     <nav id="page-controls">
       <a href="#content" id="return-top">
         <i class="fa fa-arrow-up" alt="⇧"></i> Return to top
