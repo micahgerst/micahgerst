@@ -3,8 +3,12 @@
 Hi there! I'm a recent graduate who returned to university to begin my MSc Bioinformatics. During my undergrad, my studies focused on the neuroscience of pain and computational neuroscience. Outside of my studies, I enjoy writing, crocheting, sewing, and live-action roleplay (LARP). I also enjoy video games and occasionally make my own mods for them too!
 
 # Recent Projects
-<!--- Try and keep this to 3 projects --->
-
+<!--- Try and keep this to 3 projects 
+TODO: Create a better way of organising this section
+--->
+**Python Exercise Notebook**
+During my course, I was introduced to Torbjörn Lager's 46 Simple Exercises for Python. I was interested in making a notebook file for these problems, and decided to make a blank copy first to share with my peers. As I was exploring his problems, I made adjustments to the problems and added some where I thought it would improve the flow of the problems.
+[](https://github.com/micahgerst/python_exercise_notebook)
 
 # Qualifications
 ## Education
@@ -36,13 +40,14 @@ TODO: OVERVIEW
 | Advanced statistics: Data analysis and modelling with R | A masters-level module dedicated to statistical analysis using R. Topics included linear modelling, structural equation modelling, and Bayesian analysis. Received a final mark of 63.50%. | <ul><li>R</li><li>R Markdown</li><li>LaTeX</li><li>statistical analysis</li><li>data analysis</li></ul> |
 
 ## Competencies
-
+<!---
 **Tech Skills**
 
 **Research Skills**
 
 **
 
+--->
 | Tech Skills | Other Skills |
 | ----------- | ------------ |
 | Python | Problem solving |
